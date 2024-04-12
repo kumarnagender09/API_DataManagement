@@ -85,6 +85,8 @@ To learn more about React Native, take a look at the following resources:
 
 Create a simple application that fetches data from a public API endpoint and displays it in a list format. However, the API response contains a large dataset, and each item in the list requires heavy computation to display additional details. Your task is to optimize the application using React Native hooks and ensure efficient rendering and data management.
 
+![alt text](<Simulator Screenshot - iPhone Xs - 2024-04-12 at 16.20.22.png>) ![alt text](<Simulator Screenshot - iPhone Xs - 2024-04-12 at 16.20.31.png>)
+
 ## Requirements:
 
 ### 1. Data Fetching and Rendering:
