@@ -1,0 +1,10 @@
+Gemfile
+.DS_Store
+ios/Podfile.lock
+ios/Pods
+node_modules
+ios/build
+ios/DemoInterview.xcworkspace
+ios/.xcode.env.local
+ios/.xcode.env
+yarn.lock
