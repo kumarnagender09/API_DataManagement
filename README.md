@@ -78,16 +78,16 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-===================================================================================================================
+=======================================================
 # Problem Description:
-===================================================================================================================
+=======================================================
 
 
 Create a simple application that fetches data from a public API endpoint and displays it in a list format. However, the API response contains a large dataset, and each item in the list requires heavy computation to display additional details. Your task is to optimize the application using React Native hooks and ensure efficient rendering and data management.
 
 ## Requirements:
 
-1. Data Fetching and Rendering:
+### 1. Data Fetching and Rendering:
 
 - Fetch data from the provided API endpoint `https://jsonplaceholder.typicode.com/posts` when the component mounts using the `useEffect` hook.
 
@@ -95,7 +95,7 @@ Create a simple application that fetches data from a public API endpoint and dis
 
 - Each item in the list should display the fetched data, including `id` and `title` fields.
 
-2. Heavy Computation Optimization:
+### 2. Heavy Computation Optimization:
 
 - Each item in the list requires heavy computation to display additional details. Implement a heavy computation function using the `useMemo` hook to optimize performance.
 
@@ -103,7 +103,7 @@ Create a simple application that fetches data from a public API endpoint and dis
 
 - Log the time taken for the heavy computation function to run on each render.
 
-3. Callback Memoization:
+### 3. Callback Memoization:
 
 - Create a child component that displays details of an item when clicked. Ensure that the child component retrieves data from the API endpoint https://jsonplaceholder.typicode.com/posts/{postId} by fetching the post details using the post's ID. Display the same content as shown on the list page for the selected item.
 
@@ -113,13 +113,13 @@ Create a simple application that fetches data from a public API endpoint and dis
 
 - Log a message in the child component when it re-renders due to changes in props.
 
-Styling:
+### Styling:
 
 Apply basic styling to the counter and buttons to make them clearly visible and distinct.
 
-Purpose:
+### Purpose:
 
-Evaluation Criteria:
+[Evaluation Criteria ]:
 
 - Accuracy and completeness of implementation of all requirements.
 
@@ -131,4 +131,4 @@ Evaluation Criteria:
 
 - Clarity, readability, and organization of code.
 
-Ref API Documentation: JSONPlaceholder API Documentation: JSONPlaceholder API
+[Ref API Documentation: JSONPlaceholder API Documentation: JSONPlaceholder API]
