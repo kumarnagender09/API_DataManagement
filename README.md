@@ -43,15 +43,16 @@ npm run ios
 yarn ios
 ```
 
-<video width="320" height="240" controls>
-  <source src="Demo_Video.mov" type="video/quicktime">
-  Your browser does not support the video tag.
-</video>
 
-=======================================================
+<a href="Demo_Video.mov">
+   <img src="thumbnail_image_url" alt="Watch the video" width="320" height="240">
+</a>
+
+
+[![Watch the video](thumbnail_image_url)](Demo_Video.mov)
+
+
 # Problem Description:
-=======================================================
-
 
 Create a simple application that fetches data from a public API endpoint and displays it in a list format. However, the API response contains a large dataset, and each item in the list requires heavy computation to display additional details. Your task is to optimize the application using React Native hooks and ensure efficient rendering and data management.
 
