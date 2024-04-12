@@ -1,4 +1,9 @@
 # API_DataManagement
+<video width="320" height="240" controls>
+  <source src="Demo_Video.mov" type="video/quicktime">
+  Your browser does not support the video tag.
+</video>
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
